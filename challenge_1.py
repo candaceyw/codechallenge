@@ -16,5 +16,5 @@ duplicates = []
 #             duplicates.append(value)
 
 
-duplicates = list(set([x for x in a if a.count(x) > 1]))
+duplicates = list(set([n for n in a if a.count(n) > 1]))
 print(duplicates)
